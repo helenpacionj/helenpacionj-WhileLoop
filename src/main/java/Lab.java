@@ -35,8 +35,21 @@ public class Lab {
     public int whileExample(int end){
         int sum = 0;
         int i = 0;
+        System.out.println("i="+i);
+        System.out.println("sum="+sum);
+        System.out.println("end="+end);
+        System.out.println("-------------------------------");
+
 
 //        code here
+        while (i < end) {
+            sum += i;
+            System.out.println("i="+i);
+        System.out.println("sum="+sum);
+            System.out.println("-------------------------------");
+
+            i++;
+        }
 
         return sum;
     }
